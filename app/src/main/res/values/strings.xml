@@ -2,4 +2,6 @@
     <string name="app_name">ZhiShaizi</string>
     <string name="begin">点击下方按钮开始掷骰子</string>
     <string name="let_s_go">Let`s GO</string>
+    <string name="auto">Auto GO</string>
+    <string name="stop">Click To Stop</string>
 </resources>

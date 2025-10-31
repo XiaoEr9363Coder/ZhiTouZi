@@ -27,12 +27,32 @@
         tools:layout_editor_absoluteX="230dp"
         tools:layout_editor_absoluteY="41dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:text="@string/let_s_go"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="334dp" />
+        android:layout_marginTop="80dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:text="@string/let_s_go"
+            tools:layout_editor_absoluteX="325dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+        <Button
+            android:id="@+id/btn_auto"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:text="@string/auto"
+            tools:layout_editor_absoluteX="325dp"
+            tools:layout_editor_absoluteY="334dp" />
+    </LinearLayout>
+
+
+
 </LinearLayout>
